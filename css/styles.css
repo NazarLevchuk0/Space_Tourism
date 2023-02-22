@@ -1,0 +1,551 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: 'Barlow', sans-serif;
+}
+
+h1 {
+    font-family: 'Bellefair', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 115px;
+    line-height: 115px;
+    color: #FFFFFF;
+    margin: 40px 0px 40px 0px;
+}
+
+h2 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 34px;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+h4 {
+    font-family: 'Bellefair', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 37px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    margin: 0;
+}
+
+h5 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 19px;
+    letter-spacing: 2.7px;
+    color: #D0D6F9;
+    margin: 20% auto 0% auto;
+}
+
+p {
+    font-family: 'Barlow', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 32px;
+    color: #D0D6F9;
+}
+
+a {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 19px;
+    letter-spacing: 2.7px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.main-container-home {
+    background-image: url("../assets/home/background-home-desktop.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.top-container {
+    width: 95%;
+    height: 12%;
+    position: relative;
+    left: 5%;
+    top: 6%;
+}
+
+.star {
+    top: 22%;
+    position: absolute;
+    width: 3.5rem;
+    height: 3.5rem;
+}
+
+.top-line {
+    position: absolute;
+    width: 34%;
+    left: 8%;
+    top: 40%;
+    z-index: 1;
+    mix-blend-mode: normal;
+    opacity: 0.25;
+    border-style: solid;
+    border-color: #979797;
+}
+
+.buttons-container {
+    width: 60%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.04);
+    backdrop-filter: blur(40.7742px);
+    position: relative;
+    left: 40%;
+}
+
+.button {
+    top: 40%;
+    position: relative;
+    left: 9%;
+    margin-left: 8%;
+    z-index: 1;
+}
+
+.button:hover {
+    border-bottom: 4px solid rgba(250, 250, 250, 0.5);
+    padding-bottom: 41.5px;
+}
+
+.button span {
+    margin-right: 1%;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.page-underline-home {
+    position: absolute;
+    width: 7%;
+    top: 96%;
+    margin: 0;
+    left: 17%;
+    border-style: solid;
+    border-color: #FFFFFF;
+    border-width: 2px;
+}
+
+.middle-container {
+    position: relative;
+    top: 25%;
+    left: 13%;
+    width: 27%;
+}
+
+.space {
+    font-size: 170px;
+    line-height: 172px;
+}
+
+.h2-home {
+    color: #D0D6F9;
+}
+
+.bottom-container {
+    height: 15%;
+    width: 15%;
+    position: absolute;
+    left: 73%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle:hover {
+    color: #FFFFFF;
+    border-radius: 50%;
+    height: 450px;
+    width: 450px;
+    background: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.1;
+    position: absolute;
+    z-index: 2;
+}
+
+.circle {
+    background: #FFFFFF;
+    border-radius: 100%;
+    height: 300px;
+    position: relative;
+    width: 300px;
+    z-index: 1;
+}
+
+.circle-around {
+    position: absolute;
+    background: #FFFFFF;
+    border-radius: 100%;
+    height: 300px;
+    width: 300px;
+}
+
+.explore {
+    position: absolute;
+    font-family: 'Bellefair', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 37px;
+    letter-spacing: 2px;
+    color: #0B0D17;
+    z-index: 1;
+}
+
+.explore-around {
+    position: absolute;
+    font-family: 'Bellefair', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 37px;
+    letter-spacing: 2px;
+    color: #0B0D17;
+    z-index: 1;
+}
+
+.explore-around:hover {
+    color: #FFFFFF;
+    border-radius: 50%;
+    height: 450px;
+    width: 450px;
+    background: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.1;
+    position: absolute;
+    font-size: 0px;
+    z-index: 1;
+}
+
+.main-container-destination {
+    background-image: url("../assets/destination/background-destination-desktop.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.page-underline-destination {
+    position: absolute;
+    width: 13%;
+    top: 96%;
+    margin: 0;
+    left: 32.5%;
+    border-style: solid;
+    border-color: #FFFFFF;
+    border-width: 2px;
+}
+
+.middle-container-destination {
+    position: relative;
+    left: 12.4%;
+    width: 80%;
+    top: 10%;
+}
+
+.main-text span {
+    font-weight: 700;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.25;
+    margin-right: 2.5%;
+}
+
+.planet {
+    position: absolute;
+    top: 400%;
+    width: 32%;
+    left: 5%;
+}
+
+.bottom-container-destination {
+    position: absolute;
+    left: 60%;
+    top: 30%;
+    width: 27%;
+}
+
+.planet-button:hover {
+    border-bottom: 4px solid rgba(250, 250, 250, 0.5);
+    padding-bottom: 14.7px;
+}
+
+.planet-button {
+    margin-right: 7%;
+}
+
+.planet-line {
+    position: absolute;
+    width: 8.5%;
+    margin: 0;
+    border-style: solid;
+    border-color: #FFFFFF;
+    border-width: 2px;
+    margin-top: 3%;
+}
+
+.planet-mars-line {
+    left: 16.5%;
+}
+
+.planet-europa-line {
+    left: 33%;
+    width: 12.3%;
+}
+
+.planet-titan-line {
+    left: 53.4%;
+    width: 9%;
+}
+
+.moon {
+    margin: 15% auto 7% auto;
+}
+
+.bottom-line {
+    mix-blend-mode: normal;
+    opacity: 0.25;
+    border-style: solid;
+    border-color: #979797;
+    margin: 11% auto 4% auto;
+}
+
+.table-text {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 17px;
+    letter-spacing: 2.3625px;
+    text-transform: uppercase;
+    color: #D0D6F9;
+}
+
+.table-num {
+    font-family: 'Bellefair', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 32px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: 5%;
+    padding-right: 74px;
+}
+
+.main-container-crew {
+    background-image: url("../assets/crew/background-crew-desktop.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.middle-container-crew {
+    position: relative;
+    top: 11%;
+    width: 40%;
+    left: 12.5%;
+}
+
+.name {
+    font-size: 64px;
+    line-height: 64px;
+    text-transform: uppercase;
+    margin: 5% auto 7% auto;
+}
+
+.bio {
+    width: 70%;
+}
+
+.main-text {
+    margin: auto auto 20% auto;
+}
+
+.page-underline-crew {
+    position: absolute;
+    width: 7%;
+    top: 96%;
+    margin: 0;
+    left: 53.8%;
+    border-style: solid;
+    border-color: #FFFFFF;
+    border-width: 2px;
+}
+
+.bottom-container-crew {
+    position: absolute;
+    left: 62%;
+    bottom: 74.7%;
+}
+
+.person {
+    position: absolute;
+}
+
+.dot {
+    width: 20px;
+    height: 20px;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: 15%;
+    mix-blend-mode: normal;
+    opacity: 0.17;
+    margin: 12% 5% auto auto;
+}
+
+.dot:hover{
+    opacity: 0.5;
+}
+
+.main-dot {
+    width: 20px;
+    height: 20px;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 12% 5% auto auto;
+}
+
+.engineer {
+    top: 35.7%;
+}
+
+.specialist {
+    top: 31.7%;
+}
+
+.pilot {
+    top: 31.2%;
+}
+
+.dot-pilot {
+    margin: 7.8% 5% auto auto;
+}
+
+.main-container-technology {
+    background-image: url("../assets/technology/background-technology-desktop.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.page-underline-technology {
+    position: absolute;
+    width: 12.8%;
+    top: 96%;
+    margin: 0;
+    left: 69.5%;
+    border-style: solid;
+    border-color: #FFFFFF;
+    border-width: 2px;
+}
+
+.bottom-container-technology {
+    display: relative;
+}
+
+.everything {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.machine {
+    position: relative;
+    top: 26%;
+}
+
+.middle-container-technology {
+    position: absolute;
+    width: 38.5%;
+    left: 23%;
+    top: 5%;
+}
+
+.vehicle {
+    margin: 2% auto 4% auto;
+}
+
+.main-text-technology {
+    position: relative;
+    right: 25%;
+    margin-top: 13%;
+}
+
+.flex {
+    top: 44%;
+    left: 14%;
+    position: absolute;
+    height: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    z-index: 1;
+}
+
+.number-of-page-circle {
+    border-radius: 100%;
+    height: 80px;
+    position: relative;
+    width: 80px;
+    border: 1px solid rgba(250, 250, 250, 0.25);
+}
+
+.number-of-page-circle:hover {
+    border: 1px solid rgba(250, 250, 250, 1);
+}
+
+.main-circle {
+    background: #FFFFFF;
+    border-radius: 100%;
+    height: 84px;
+    position: relative;
+    width: 84px;
+}
+
+.span {
+    position: absolute;
+    left: 40%;
+    top: -10%;
+    font-family: 'Bellefair', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 37px;
+    text-align: center;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+}
+
+.main-number {
+    color: #0B0D17;
+    top: -5.5%;
+}
+
+.one {
+    left: 44%;
+}
